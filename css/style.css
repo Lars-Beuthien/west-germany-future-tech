@@ -273,6 +273,7 @@ button {
     background-position: center;
     background-attachment: fixed;
 }
+
 input
 {
      background-color: rgb(116, 116, 116);
@@ -284,4 +285,61 @@ textarea
      background-color: rgb(116, 116, 116);
     font-family: courier;
     color: antiquewhite;
+}
+table
+{
+    background-color: #000000;
+    color: beige;
+    border: 1px solid beige;
+}
+table th,
+table td
+{
+    border: 1px solid rgb(233, 224, 224);
+    border-collapse: collapse;
+}
+.telebüro {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 1rem auto;
+}
+.img-produkte
+{
+    width: 38%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+.produkte h1,
+.produkte h2,
+.produkte h3,
+.produkte figcaption,
+.produkte caption
+ 
+{
+    background-color: rgba(0,0,0,0.75);
+    color: beige;
+    padding: 0.3rem 0.6rem;
+    display: inline-block;
+}
+.produktgruppen-beschreibung
+{
+    display: block;
+    width: fit-content;
+    background-color: rgba(0,0,0,0.75);
+    color: beige;
+    padding: 0.3rem 0.6rem;
+}
+.koffertelefon
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 1rem auto;
 }
