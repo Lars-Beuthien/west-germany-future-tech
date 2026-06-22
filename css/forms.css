@@ -1,0 +1,66 @@
+/*========================================================================================================================
+"West-Germany-Future-Tech GmbH"
+
+Datei: forms.css
+Datum: 17.06.2026
+Autor: Lars Beuthien
+
+Formulare:
+- Kontaktformular
+========================================================================================================================*/
+
+.kontaktformular {
+    max-width: 70vw;
+    width: 40rem;
+    background-color: #31302d;
+    color: beige;
+    padding: 1rem;
+    border-radius: 2px;
+    border: 2px solid beige;
+    outline: 10px solid black;
+    margin-left: 2rem;
+}
+
+.kontaktformular div {
+    margin-bottom: 1rem;
+    max-width: 32rem;
+}
+
+.kontaktformular label {
+    cursor: pointer;
+    display: block;
+    max-width: 32rem;
+}
+
+
+
+.kontaktformular input:not([type="checkbox"]),
+.kontaktformular textarea {
+    background-color: rgb(116, 116, 116);
+    color: antiquewhite;
+     width: 100%;
+    max-width: 32rem;
+    border-radius: 5px;
+
+}
+
+.kontaktformular button {
+    background-color: rgb(116, 116, 116);
+    color: antiquewhite;
+}
+
+.kontaktformular .checkbox-row {
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-start;
+    width: fit-content;
+    max-width: 32rem;
+}
+
+.content-band button {
+    max-width: 100%;
+    min-width: 200px;
+    min-height: 30px;
+    border-radius: 5px;
+}
+

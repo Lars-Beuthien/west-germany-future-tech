@@ -9,16 +9,16 @@
         
     </head>
     <!--ENDE HEAD-ANFANG BODY-->
-    <body>
+    <body class="produkte">
         <header class="hero">
-            <h1> 
-                <img  class="logo"
+         <a class="site-logo" href="index.html">
+        <img class="logo" 
                 src="Bilder/Logo transparenter Hintergrund 2.png"
                 alt="West Germany Future Tech GmbH">
-            </h1>
-            <h4>Made in West Germany since 1984</h4>
-            <h1>Produkte</h1>
-        </header>
+            
+            </a>
+    <p class="claim">Made in West Germany since 1984</p>
+    </header>
          <!--//////////HEADER-NAV//////////-->
         <nav class="hauptnavigation">
             <ul>
@@ -38,7 +38,7 @@
                 </a>
                 </li>
                 <li>
-                    <a href="produkte.html">
+                    <a href="produkte.html" aria-current="page">
                         <img src="Bilder/buttons/produkte.png" alt="Produkte">
                     </a>
                 </li>
@@ -50,48 +50,98 @@
             </ul>
         </nav>
         <!--///////////NAV-MAIN//////////-->
-        <main class="produkte">
-            <h1>Produkte</h1>
+        <main class="site-content">
+            <div class="plakette-position">
+                <div class="plakette-white-layer">
+                    <div class="plakette">
+                        <h1 class="schrift-plakette-personal-h1">Produkte</h1>
+                    </div>
+                </div>
+            </div>
             <section class="produktbereich">
                 <h2>Produktbereiche</h2>
-                <article class="produktgruppe">
-                    <h3>Büro- und Fernmeldetechnik</h3>
-                    <p class="produktgruppen-beschreibung">Physische Kommunikationsgeräte für Fernsprech-, Fernkopie- und Vorgangslagen.</p>
-                    <table>
-                        <caption> Produkte im Überblick</caption>
-                        <tr>
-                            <td>Telebüro</td>
-                        </tr>
-                        <tr>    
-                            <td>Koffertelefon 2000</td>
-                        </tr>
-                        <tr>    
-                            <td>Tischrohrpost TPRP 300</td>
-                        </tr>
-                        <tr>    
-                            <td>Halshörer 84</td>
-                        </tr>
-                    </table>
-                    <article class="produkt">
-                    <h2>Telebüro</h2>
-                    <figure class="telebüro">
-                    <img class="img-produkte" src="Bilder/produkte/TELEBÜRO IM EINSATZ.png"
-                    alt="Telebüro im Einsatz">
+                <table>
+    <caption>Produktbereiche im Überblick</caption>
+
+    <thead>
+        <tr>
+            <th scope="col">PRODUKTBEREICH</th>
+            <th scope="col">ZUSTÄNDIGKEIT</th>
+            <th scope="col">BEISPIELHAFTE ERZEUGNISSE</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Büro- und Fernmeldetechnik</td>
+            <td>
+                Geräte zur fernmündlichen, fernschriftlichen und innerbetrieblichen
+                Nachrichtenführung in Geschäfts-, Messe- und Einsatzlagen.
+            </td>
+            <td>
+                Telebüro, Koffertelefon 2000, Tischrohrpost TPRP 300,
+                Halshörer 84
+            </td>
+        </tr>
+
+        <tr>
+            <td>Handwerk, Bau und technische Ausbringung</td>
+            <td>
+                Vorrichtungen, Zusatzgeräte und Ausbringungssysteme für Werkhalle,
+                Baustelle, Montagebetrieb und produktionsnahe Sonderlagen.
+            </td>
+            <td>
+                WGT-PU 2000, Druckaschenbecher DAB-84, Großventil GV-12,
+                Schnüffelstückflanschadapter
+            </td>
+        </tr>
+
+        <tr>
+            <td>Daten-Steuerung und Zukunftssoftware</td>
+            <td>
+                Programme, Datenverfahren und digital-analoge Steuerungssysteme
+                zur vorgangsbezogenen Zukunftsverwaltung.
+            </td>
+            <td>
+                Elektrobriefstelle EB-84, Rohbogenkarteivereinfachungszuführungsmodul
+                Digital, Schallplattenbinärspeicher, MAS-86
+            </td>
+        </tr>
+    </tbody>
+</table>
+                
+            <article class="produkt">
+
+                <!--Büro- und Fernmeldetechnik-->
+                <section id="buero-fernmeldetechnik" class="content-band">
+                        <h2>Büro- und Fernmeldetechnik</h2>
+                    <section class="produktgruppe">
+                    
+                    <h3>Telebüro</h3>
+                    
+                    <figure class="produktbilder">
+                        <img class="img-produkte" src="Bilder/produkte/TELEBÜRO IM EINSATZ.png"
+                        alt="Telebüro im Einsatz">
+                        <img class="img-produkte" src="Bilder/produkte/Telebüro bei der Fahrt.png"
+                        alt="Telebüro bei der Fahrt">
+                        <img class="img-produkte" src="Bilder/produkte/WGFT - TELEFAXKOFFER 86.png"
+                        alt="Wgft - TELEFAXKOFFER 86">
                     <img class="img-produkte" src="Bilder/produkte/WGFT TELEBÜRO IM EINSATZ.png"
                     alt="Telebüro im Einsatz 2">
-                    <img class="img-produkte" src="Bilder/produkte/Telebüro bei der Fahrt.png"
-                    alt="Telebüro bei der Fahrt">
-                    <img class="img-produkte" src="Bilder/produkte/WGFT - TELEFAXKOFFER 86.png"
-                    alt="Wgft - TELEFAXKOFFER 86">
-                    <figcaption>Telebüro von WGFT vereint unverwüstliche Qualität mit großer raumfreier Führungtätigkeit.</figcaption>
+                    <figcaption>
+                        <span>Das Telebüro von WGFT vereint unverwüstliche Qualität mit großer raumfreier Führungtätigkeit.</span></figcaption>
+                    
                     </figure>
+                    <!--Anfang Tabelle-->
                     <table>
                         <thead>
                         <tr>
                         <th colspan="2">Technische Daten Telebüro</th>
                         </tr>
-                        <th scope="col"><strong>MERKMAL</strong></th>
-                        <th scope="col"><strong>ANGABE</strong></th>
+                        <tr>
+                            <th scope="col"><strong>MERKMAL</strong></th>
+                            <th scope="col"><strong>ANGABE</strong></th>
+                        </tr>
                         </thead>
                         <tbody>
                             <tr>
@@ -143,111 +193,727 @@
                                 <td>Mobil betriebsbereit nach formaler Abschlussprüfung</td>
                             </tr>
                         </tbody>
-
-                    
-
                     </table>
+                    <!--Ende Tabelle-->
                     </article>
+                    </section>
+                    <section class="content-band">
                     <article class="produkt">
-                        <h2>Koffertelefon 2000</h2>
-                        <figure class="koffertelefon">
-                            <img class="img-produkte" src="Bilder/produkte/Koffertelefon 2000.png"
-                            alt="Koffertelefon 2000">
-                            <img class="img-produkte" src="Bilder/produkte/Koffertelefon 2000-2.png"
-                            alt="Koffertelefon 2000">
-                            <figcaption>Das Koffertelefon 2000 - Immer erreichbar!</figcaption>
-                        </figure>
+                        <h3>Koffertelefon 2000</h3>
+                        <figure class="produktbilder">
+                           <img class="img-produkte" src="Bilder/produkte/Koffertelefon 2000.png"
+                    alt="Koffertelefon 2000">
+                    <img class="img-produkte" src="Bilder/produkte/Koffertelefon 2000-2.png"
+                    alt="Wgft - Koffertelefon 2000">
+                    <figcaption>
+                        <span>Das Koffertelefon 2000 - Immer Erreichbar</span>
+                    </figcaption>
+                    </figure>
+                        <!--Anfang Tabelle-->
                         <table>
                             <thead>
-                            <tr>
-                                <th colspan="2">Technische Daten Koffertelefon 2000</th>
-                            </tr>
-                             <th scope="col"><strong>MERKMAL</strong></th>
-                        <th scope="col"><strong>ANGABE</strong></th>
+                                <tr>
+                                    <th colspan="2">Technische Daten Koffertelefon 2000</th>
+                                </tr>
+                                <tr>
+                                    <th scope="col"><strong>MERKMAL</strong></th>
+                                    <th scope="col"><strong>ANGABE</strong></th>
+                                </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>Geräteart</td>
                                     <td>Mobiles Fernsprechsystem im abschließbaren Industriekoffer</td>
                                 </tr>
-                                tr>
+                                <tr>
                                     <td>Einsatzbereich</td>
                                     <td>Außendienst, Messebetrieb, Baustelle, Fahrzeug, vorläufige Führungsstelle</td>
                                 </tr>
-                                tr>
+                                <tr>
                                     <td>Fernsprechmodul</td>
                                     <td>Kombinierte Wählscheiben- und Tastatureinheit mit Spiralkabelhörer</td>
                                 </tr>
-                                tr>
+                                <tr>
                                     <td>Betriebsart</td>
                                     <td>Aufgeklappt, abgestellt, fernsprechbereit</td>
                                 </tr>
-                                tr>
+                                <tr>
                                     <td>Anschluss</td>
                                     <td>Telefonnetz, Nebenstellenanlage oder Fahrzeugadapter</td>
                                 </tr>
-                                tr>
+                                <tr>
                                     <td>Stromversorgung</td>
                                     <td>Netzbetrieb oder Zusatzbatterieeinheit</td>
                                 </tr>
-                                tr>
+                                <tr>
                                     <td>Batterieleistung</td>
                                     <td>Bis zu 48 Stunden Bereitschaftsbetrieb bei mäßiger Gesprächslage</td>
                                 </tr>
-                                tr>
+                                <tr>
                                     <td>Bedienfeld</td>
                                     <td>Nummernfeld, Wählscheibe, Statusschalter und Betriebsleuchte</td>
                                 </tr>
-                                tr>
+                                <tr>
                                     <td>Betriebsanzeigen</td>
                                     <td>Bereit, Ruf, Leitung, Störung, Vermittlung</td>
                                 </tr>
-                                tr>
+                                <tr>
                                     <td>Gehäuse</td>
                                     <td>Schlagfestes Koffergehäuse mit Tragegriff und Schnappverschlüssen</td>
                                 </tr>
-                                tr>
+                                <tr>
                                     <td>Gewicht</td>
                                     <td>7,4 kg ohne Zusatzbatterie</td>
                                 </tr>
-                                tr>
+                                <tr>
                                     <td>Bedienpersonal</td>
                                     <td>Eine eingewiesene Person mit Fernsprechbefugnis</td>
                                 </tr>
-                                tr>
+                                <tr>
                                     <td>Verfahrensstatus</td>
                                     <td>Verbindungstechnisch betriebsbereit nach Lageprüfung</td>
                                 </tr>
-                                tr>
+                                <tr>
                                     <td>Gesprächslage</td>
                                     <td>Ortsfest nach Abstellung des Geräts</td>
                                 </tr>
                             </tbody>
                         </table>
+                        <!--Ende Tabelle-->
                     </article>
+                </section>
+                    <section class="content-band">
                     <article class="produkt">
-                        <h2>Tischrohrpost TPRP 300</h2>
-                        
-
+                        <h3>Tischrohrpost TPRP 300</h3>
+                        <figure class="produktbilder">
+                           <img class="img-produkte" src="Bilder/produkte/WGFT TISCHROHRPOST 85.png"
+                    alt="WGFT-Tischrohrpost-85">
+                            <img class="img-produkte" src="Bilder/produkte/WGFT-Tischrohrpost-85-2.png"
+                            alt="WGFT-Tischrohrpost-85-2">
+                    <figcaption>
+                        <span>Tischrohrpost-85 - analog-pneumatischer Datenversand für das neue Jahrtausend</span>
+                    </figcaption>
+                    </figure>
+                    <table>
+    <thead>
+        <tr>
+            <th colspan="2">Technische Daten Tischrohrpost TPRP 300</th>
+        </tr>
+        <tr>
+            <th scope="col"><strong>MERKMAL</strong></th>
+            <th scope="col"><strong>ANGABE</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Geräteart</td>
+            <td>Pneumatisches Tisch-Rohrpostsystem zur vorgangsgebundenen Schriftgutübermittlung</td>
+        </tr>
+        <tr>
+            <td>Einsatzbereich</td>
+            <td>Verwaltung, Vorzimmer, Sachbearbeitung, Registratur, Betriebsbüro</td>
+        </tr>
+        <tr>
+            <td>Rohrdurchmesser</td>
+            <td>ca. 50 mm, geeignet für gerollte DIN-A4-Vorgänge</td>
+        </tr>
+        <tr>
+            <td>Transportgut</td>
+            <td>Einzelvorgänge, Durchschläge, Kurzmitteilungen, Freigabezettel, Formularsätze</td>
+        </tr>
+        <tr>
+            <td>Zielstellenwahl</td>
+            <td>Mechanisch-elektrische Zielstellenfreigabe mit Nummernfeld</td>
+        </tr>
+        <tr>
+            <td>Betriebsdruck</td>
+            <td>Verfahrensabhängig, werkseitig auf büroverträgliche Stoßleistung eingestellt</td>
+        </tr>
+        <tr>
+            <td>Annahmestelle</td>
+            <td>Prallgedämpfte Rohrpostaufnahme mit Gummiaufschlagblock</td>
+        </tr>
+        <tr>
+            <td>Betriebsanzeigen</td>
+            <td>Betrieb, Abschluss, Störung, Kapsel unterwegs, Kapsel angekommen</td>
+        </tr>
+        <tr>
+            <td>Bedienung</td>
+            <td>Senden, Abbruch, Zielstelle, Vorgang einlegen, Kapsel verriegeln</td>
+        </tr>
+        <tr>
+            <td>Verfahrensvorteil</td>
+            <td>Verhindert informelle Übergaben zwischen Arbeitsplätzen</td>
+        </tr>
+        <tr>
+            <td>Geräuschentwicklung</td>
+            <td>Kurzzeitig deutlich vernehmbar, sachlich vertretbar</td>
+        </tr>
+        <tr>
+            <td>Bedienpersonal</td>
+            <td>Sachbearbeitung mit Rohrpostunterweisung</td>
+        </tr>
+        <tr>
+            <td>Verfahrensstatus</td>
+            <td>Vorgangsgerecht betriebsbereit nach Zielstellenprüfung</td>
+        </tr>
+    </tbody>
+</table>
                     </article>
-                    
+                    </section>
+                    <section class="content-band">
+                      <article class="produkt">
+                        <h3>Halshörer-HH84</h3>
+                        <figure class="produktbilder">
+                           <img class="img-produkte" src="Bilder/produkte/Halshörer HH 84.png"
+                    alt="Halshörer-HH84">
+                            <img class="img-produkte" src="Bilder/produkte/MOBILER HALSFERNSPRECHSATZ MHFS-2000.png"
+                            alt="Mobiler Halsfernsprechsatz">
+                    <figcaption>
+                        <span>Halshörer-HH84 - Hören ohne den Kopf zu belasten.</span>
+                    </figcaption>
+                    </figure>
+                    <table>
+    <thead>
+        <tr>
+            <th colspan="2">Technische Daten Halshörer HH-84</th>
+        </tr>
+        <tr>
+            <th scope="col"><strong>MERKMAL</strong></th>
+            <th scope="col"><strong>ANGABE</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Geräteart</td>
+            <td>Schultergestütztes Akustik-Ausgabegerät für dauerhafte Fernsprech- und Datenhörbereitschaft</td>
+        </tr>
+        <tr>
+            <td>Einsatzbereich</td>
+            <td>Fernsprechdienste, Leitwarten, Telexplätze, Werküberwachung, Bereitschaftszimmer</td>
+        </tr>
+        <tr>
+            <td>Trageweise</td>
+            <td>Auflage im Schulterbereich mit akustischer Führung zum Ohr</td>
+        </tr>
+        <tr>
+            <td>Kopflast</td>
+            <td>Entfällt weitgehend durch lastabtragende Schulterkonstruktion</td>
+        </tr>
+        <tr>
+            <td>Übertragungsbereich</td>
+            <td>150 bis 7.000 Hz</td>
+        </tr>
+        <tr>
+            <td>Nennimpedanz</td>
+            <td>200 Ω</td>
+        </tr>
+        <tr>
+            <td>Anschluss</td>
+            <td>WGFT 7-pol. Industriestecker mit Spiralkabel</td>
+        </tr>
+        <tr>
+            <td>Kabellänge</td>
+            <td>1,5 m Spiralkabel, ausziehbar bei sachgemäßer Arbeitsplatzlage</td>
+        </tr>
+        <tr>
+            <td>Bedienung</td>
+            <td>Hören, Sprechen, Warten</td>
+        </tr>
+        <tr>
+            <td>Optionales Zubehör</td>
+            <td>Kehlkopfmikrofon KM-84, Brustsprechdose BSD-84</td>
+        </tr>
+        <tr>
+            <td>Gewicht</td>
+            <td>ca. 1.850 g</td>
+        </tr>
+        <tr>
+            <td>Material</td>
+            <td>Metallbügel, Kunstlederpolster, gummierte Kabeldurchführung</td>
+        </tr>
+        <tr>
+            <td>Verfahrensstatus</td>
+            <td>Dauerhörbereit nach korrekter Schulterauflage</td>
+        </tr>
+    </tbody>
+</table>
+                    </article>  
+                    </section>
+                    <section class="content-band">
+                    <article class="produkt">
+                        <h3>Druckaschenbecher - DAB-86</h3>
+                        <figure class="produktbilder">
+                           <img class="img-produkte" src="Bilder/produkte/DAB-86.png"
+                    alt="DAB-86">
+                            <img class="img-produkte" src="Bilder/produkte/DAB-86-Werbeposter.png"
+                            alt="DAB-86-Werbeposter">
+                    <figcaption>
+                        <span>Der DAB-84 gewährleistet eine kontrollierte Ascheführung im betrieblichen Dauerbegegnungsverkehr.</span>
+                    </figcaption>
+                    </figure>
+                    <table>
+    <thead>
+        <tr>
+            <th colspan="2">Technische Daten Druckaschenbecher DAB-84</th>
+        </tr>
+        <tr>
+            <th scope="col"><strong>MERKMAL</strong></th>
+            <th scope="col"><strong>ANGABE</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Geräteart</td>
+            <td>Mechanisierte Ascheaufnahme- und Löschvorrichtung für betriebliche Rauchbegegnungspunkte</td>
+        </tr>
+        <tr>
+            <td>Einsatzbereich</td>
+            <td>Industriebüro, Werkhalle, Meisterkabine, Besprechungsraum, Messeleitstand</td>
+        </tr>
+        <tr>
+            <td>Betätigung</td>
+            <td>Druckknopf mit federgeführter Löschscheibe</td>
+        </tr>
+        <tr>
+            <td>Löschmechanismus</td>
+            <td>Mechanische Verdichtung mit kontrollierter Aschezuführung</td>
+        </tr>
+        <tr>
+            <td>Betriebsanzeigen</td>
+            <td>Betrieb, Entleeren, Wartung erforderlich</td>
+        </tr>
+        <tr>
+            <td>Stromversorgung</td>
+            <td>220 V, 50 Hz</td>
+        </tr>
+        <tr>
+            <td>Leistungsaufnahme</td>
+            <td>60 W bei ordnungsgemäßem Löschvorgang</td>
+        </tr>
+        <tr>
+            <td>Gehäuse</td>
+            <td>Hammerschlaglackiertes Metallgehäuse mit frontseitigem Typenschild</td>
+        </tr>
+        <tr>
+            <td>Eigengewicht</td>
+            <td>ca. 14,8 kg, abhängig von Aschefüllstand und Verdichtungszustand</td>
+        </tr>
+        <tr>
+            <td>Geräuschentwicklung</td>
+            <td>Geräuscharm im Betrieb, deutlich vernehmbar bei Druckvorgang</td>
+        </tr>
+        <tr>
+            <td>Entleerung</td>
+            <td>Nur nach Abkühlzeit und Entleerfreigabe</td>
+        </tr>
+        <tr>
+            <td>Bedienpersonal</td>
+            <td>Allgemeines Betriebspersonal nach kurzer Geräteunterweisung</td>
+        </tr>
+        <tr>
+            <td>Verfahrensstatus</td>
+            <td>Löschbereit nach Kontrollleuchte Betrieb</td>
+        </tr>
+    </tbody>
+</table>
+                    </article>
+                    </section>
+                </section>
+                <section class="produktgruppe">
+                    <section id="handwerk-bau" class="content-band">
+                        <h2>Handwerk, Bau und technische Ausbringung</h2>
+                      <article class="produkt">
+                        <h3>Seilzugfeldrechner - Produktfamilie</h3>
+                        <figure class="produktbilder">
+                           <img class="img-produkte" src="Bilder/produkte/Seilzugfeldrechner-klein.png"
+                    alt="Seilzugfeldrechner - klein">
+                            <img class="img-produkte" src="Bilder/produkte/Seilzugfeldrechner-klein+gross.png"
+                            alt="Seilzugfeldrechner-klein+gross">
+                    <figcaption>
+                        <span>Seilzugfeldrechner SFR-K 86 und SFR-G 86: transportable Datenverarbeitungssysteme mit eigenkraftstofflicher Strombereitstellung für Einsatzorte ohne gesicherte Netzlage.</span>
+                    </figcaption>
+                    </figure>
+                    <table>
+    <thead>
+        <tr>
+            <th colspan="2">Technische Daten Seilzugfeldrechner-Baureihe SFR</th>
+        </tr>
+        <tr>
+            <th scope="col"><strong>MERKMAL</strong></th>
+            <th scope="col"><strong>ANGABE</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Geräteart</td>
+            <td>Transportables Datenverarbeitungssystem mit eigenkraftstofflicher Strombereitstellung</td>
+        </tr>
+        <tr>
+            <td>Modelle</td>
+            <td>SFR-K 86 Seilzugfeldrechner-Klein, SFR-G 86 Seilzugfeldrechner-Groß</td>
+        </tr>
+        <tr>
+            <td>Einsatzbereich</td>
+            <td>Baustellen, Bergwerke, Außenanlagen, Gleisanlagen, Tagebau, Katastrophenlagen</td>
+        </tr>
+        <tr>
+            <td>Stromerzeugung</td>
+            <td>Integrierter Benzin-Stromerzeuger mit Seilzugstarter und Rücklaufsperre</td>
+        </tr>
+        <tr>
+            <td>Monitor</td>
+            <td>8- bis 9-Zoll-Grünmonitor mit betriebsfester Statusausgabe</td>
+        </tr>
+        <tr>
+            <td>Arbeitsspeicher</td>
+            <td>32 KB bis 64 KB, modellabhängig</td>
+        </tr>
+        <tr>
+            <td>Druckausgabe</td>
+            <td>A4- oder A3-Nadeldrucker, je nach Gerätestufe</td>
+        </tr>
+        <tr>
+            <td>Betriebsarten</td>
+            <td>Rechnen, Drucken, Warten, Lüften, Aus</td>
+        </tr>
+        <tr>
+            <td>Betriebsanzeigen</td>
+            <td>Strom vorhanden, Überlast, Öldruck, Abgas beachten</td>
+        </tr>
+        <tr>
+            <td>Kraftstofftank</td>
+            <td>6 bis 12 Liter Normalbenzin</td>
+        </tr>
+        <tr>
+            <td>Betriebsdauer</td>
+            <td>ca. 4 bis 8 Stunden bei geordneter Datenlage</td>
+        </tr>
+        <tr>
+            <td>Eigengewicht</td>
+            <td>ca. 68 kg bis 135 kg, Transport nur lagegerecht</td>
+        </tr>
+        <tr>
+            <td>Verfahrensstatus</td>
+            <td>Betriebsbereit nach erfolgreichem Zugvorgang und Systemtest</td>
+        </tr>
+    </tbody>
+</table>
+                    </article>   
+                    </section>
+                     <section class="content-band">
+                        <article class="produkt">
+                        <h2>WGT-PU-2000</h2>
+                        <figure class="produktbilder">
+                           <img class="img-produkte" src="Bilder/produkte/WGT-PU-2000 - Produktansicht.png"
+                    alt="RBK-VZMd-84">
+                            <img class="img-produkte" src="Bilder/produkte/WGT-PU-2000 -Systemansicht.png"
+                                  alt="WGT-PU-2000 -Systemansicht">
+                             <figcaption>
+                                    <span>WGT-PU 2000: zuverlässige PU-Ausbringung bei erhöhtem Anpassungs-, Abdichtungs- und Präsentationsbedarf.</span>
+                             </figcaption>
+                            </figure>
+                            <table>
+    <thead>
+        <tr>
+            <th colspan="2">Technische Daten WGT-PU 2000</th>
+        </tr>
+        <tr>
+            <th scope="col"><strong>MERKMAL</strong></th>
+            <th scope="col"><strong>ANGABE</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Geräteart</td>
+            <td>Industrielles PU-Schaum-Applikationssystem für kontrollierte Umfeldangleichung</td>
+        </tr>
+        <tr>
+            <td>Einsatzbereich</td>
+            <td>Messebetrieb, Baustelle, Hohlraumbehandlung, Präsentationsflächen, Sonderabdichtung</td>
+        </tr>
+        <tr>
+            <td>Betriebsart</td>
+            <td>Mischen, Drücken, Warten</td>
+        </tr>
+        <tr>
+            <td>Medienführung</td>
+            <td>Getrennte Polyol- und Isocyanat-Zuführung mit Mischblock</td>
+        </tr>
+        <tr>
+            <td>Betriebsdruck</td>
+            <td>Bis 100 bar, abhängig von Schaumlagerichtung und Schlauchlage</td>
+        </tr>
+        <tr>
+            <td>Druckluftversorgung</td>
+            <td>Externer Anschluss oder Kompressorfreigabe nach Lageprüfung</td>
+        </tr>
+        <tr>
+            <td>Ausbringung</td>
+            <td>Kontinuierlich, stoßweise oder vorführbedingt erhöht</td>
+        </tr>
+        <tr>
+            <td>Betriebsanzeigen</td>
+            <td>Betrieb, Druck, Schaum bereit, Störung</td>
+        </tr>
+        <tr>
+            <td>Zubehör</td>
+            <td>Großventil GV-12, Schnüffelstückflanschadapter, Sicherheitskupplung, Ersatzdüsen</td>
+        </tr>
+        <tr>
+            <td>Gehäuse</td>
+            <td>Fahrbares Stahlrahmengestell mit Hammerschlaglack und Industriefrontplatte</td>
+        </tr>
+        <tr>
+            <td>Bedienpersonal</td>
+            <td>Eingewiesenes Ausbringungspersonal mit Freigabe durch Vorführleitung</td>
+        </tr>
+        <tr>
+            <td>Besondere Hinweise</td>
+            <td>Umfeldwirkung vor Inbetriebnahme abschätzen und schriftlich gegenzeichnen</td>
+        </tr>
+        <tr>
+            <td>Verfahrensstatus</td>
+            <td>Schaumbereit nach Mischdruckprüfung und Umfeldfreigabe</td>
+        </tr>
+    </tbody>
+</table>
+                         </article>   
+                    </section>
+                </section>
 
-                </article>
-            <h2>Handwerk, Bau und technische Ausbringung</h2>
-            <table></table>
-            <h2>Büro- und Fernmeldetechnik</h2>
-            <table></table>
-            <h2>Datensteuerung und Zukunftssoftware</h2>
-            <table></table>
+                <section class="produktgruppe">
+                    <section id="zukunftssoftware" class="content-band">
+                        <h2>Datensteuerung und Zukunftssoftware</h2>
+                        <article class="produkt">
+                        <h3>Industrie-Daten-Schallplattenleser</h3>
+                        <figure class="produktbilder">
+                           <img class="img-produkte" src="Bilder/produkte/INDUSTRIE DATEN SCHALLPLATTENLESER.png"
+                    alt="INDUSTRIE DATEN SCHALLPLATTENLESER">
+                            <img class="img-produkte" src="Bilder/produkte/Analog-Binärdatenspeicher.png"
+                            alt="Analog-Binärdatenspeicher">
+                    <figcaption>
+                        <span>Industrie-Daten-Schallplattenleser IDS-2000/2 mit binärdatenbasierter Langzeitarchivierung</span>
+                    </figcaption>
+                    </figure>
+                    <table>
+    <thead>
+        <tr>
+            <th colspan="2">Technische Daten Industrie-Daten-Schallplattenleser IDS-2000/2</th>
+        </tr>
+        <tr>
+            <th scope="col"><strong>MERKMAL</strong></th>
+            <th scope="col"><strong>ANGABE</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Geräteart</td>
+            <td>Digital-analoges mechanisches Datenlesesystem für schallplattenbasierte Binärspeicher</td>
+        </tr>
+        <tr>
+            <td>Einsatzbereich</td>
+            <td>Archiv, Forschung, Betriebsdaten, Verwaltungsdauerablage, Sondernachweisführung</td>
+        </tr>
+        <tr>
+            <td>Datenträger</td>
+            <td>Binärdaten-Speicherschallplatte, einzeln nummeriert und vorgangsgebunden beschriftet</td>
+        </tr>
+        <tr>
+            <td>Speichermedium</td>
+            <td>Mechanisch gepresste Rilleninformation mit binärer Auswertung</td>
+        </tr>
+        <tr>
+            <td>Plattenbestand</td>
+            <td>Bis zu 48 Archivplatten im Direktzugriffsschrank</td>
+        </tr>
+        <tr>
+            <td>Drehzahl</td>
+            <td>33 1/3, 45 oder 78 U/min, abhängig von Archivklasse</td>
+        </tr>
+        <tr>
+            <td>Lesemodus</td>
+            <td>Prüfen, Lesen, Archiv, Kontrollumlauf</td>
+        </tr>
+        <tr>
+            <td>Betriebsanzeigen</td>
+            <td>Betrieb, Lesen, Kontrollumlauf, Schreibsperre, Störung</td>
+        </tr>
+        <tr>
+            <td>Zugriff</td>
+            <td>Nur nach Freigabe und dokumentierter Plattenentnahme</td>
+        </tr>
+        <tr>
+            <td>Archivschutz</td>
+            <td>Schutz vor Feuchtigkeit, Magnetfeldern, mechanischen Einwirkungen und unbefugtem Zugriff</td>
+        </tr>
+        <tr>
+            <td>Langzeitverhalten</td>
+            <td>Für die Ewigkeit bestimmt, nur unter absoluten Bedingungen öffnen</td>
+        </tr>
+        <tr>
+            <td>Bedienpersonal</td>
+            <td>Archivpersonal mit Plattenleseberechtigung</td>
+        </tr>
+        <tr>
+            <td>Verfahrensstatus</td>
+            <td>Lesebereit nach Platteneinzug und Kontrollumlauf</td>
+        </tr>
+    </tbody>
+</table>
+                    </article>   
+                    </section>
+                     <section class="content-band">
+                        <article class="produkt">
+                        <h3>Rohrbogenkarteivereinfachungszuführungsmodul</h3>
+                        <figure class="produktbilder">
+                           <img class="img-produkte" src="Bilder/produkte/RBK-VZMd-84.png"
+                    alt="RBK-VZMd-84">
+                            <img class="img-produkte" src="Bilder/produkte/RBK-VZMd-Im Einsatz.png"
+                                  alt="RBK-VZMd-Im Einsatz">
+                             <figcaption>
+                               <span>RBK-VZM/d-84 im Einsatz: unverzichtbare Schnittstelle zwischen Rohrbogenbestand, Vorgangsarchiv und Hallenverantwortung zur Sicherstellung ordnungsgemäßer Zuführung im Winkelbereich 11°–17°.</span>
+                             </figcaption>
+                            </figure>
+                            <table>
+    <thead>
+        <tr>
+            <th colspan="2">Technische Daten RBK-VZM/d-84</th>
+        </tr>
+        <tr>
+            <th scope="col"><strong>MERKMAL</strong></th>
+            <th scope="col"><strong>ANGABE</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Geräteart</td>
+            <td>Digitales Zuführungsmodul zur Vereinfachung rohrbogenbezogener Karteivorgänge</td>
+        </tr>
+        <tr>
+            <td>Einsatzbereich</td>
+            <td>Schwerindustrie, Rohrlager, Hallenverwaltung, Sonderrohrbereiche, Winkelregistratur</td>
+        </tr>
+        <tr>
+            <td>Erfassungsbereich</td>
+            <td>Rohrbögen zwischen 11° und 17° im Hauptbereich</td>
+        </tr>
+        <tr>
+            <td>Sonderbereiche</td>
+            <td>18° bis 25°, 26° bis 45°, 46° bis 73° und 74° bis 90° nach Zusatzfreigabe</td>
+        </tr>
+        <tr>
+            <td>Sortiermerkmale</td>
+            <td>Karteinummer, Nennwinkel, Radius, Werkstoff, Halle, Rohrbereich</td>
+        </tr>
+        <tr>
+            <td>Ausgabe</td>
+            <td>Endlosausdruck auf Listenpapier mit Protokoll- und Freigabefeld</td>
+        </tr>
+        <tr>
+            <td>Statusmeldung</td>
+            <td>Kartei zugeführt, Bogenlage geprüft, Vereinfachung wirksam</td>
+        </tr>
+        <tr>
+            <td>Bediengerät</td>
+            <td>Sichtfenster-Terminal ST-86 mit grüner Tabellenanzeige</td>
+        </tr>
+        <tr>
+            <td>Drucker</td>
+            <td>Listen-Drucker LD-80 für fortlaufende Rohrbogenprotokolle</td>
+        </tr>
+        <tr>
+            <td>Vereinfachungsfreigabe</td>
+            <td>Nur nach Gegenzeichnung durch Halle, Werk und Rohrbereich</td>
+        </tr>
+        <tr>
+            <td>Archivierung</td>
+            <td>Aktenordner, Endlosausdrucke und vorgangsbezogene Karteiablage</td>
+        </tr>
+        <tr>
+            <td>Bedienpersonal</td>
+            <td>Eingewiesene Bogenkarteiführung mit Hallenkenntnis</td>
+        </tr>
+        <tr>
+            <td>Verfahrensstatus</td>
+            <td>Ordnungsgemäß zuführbereit nach Winkelbereichsprüfung</td>
+        </tr>
+    </tbody>
+</table>
+                         </article>   
+                    </section>
+                </section>
+            
         </section>
         </main>
+         <footer class="site-footer">
+    <div class="footer-inner">
+        <div class="vertical-container">
+
+        <section class="footer-block footer-info">
+            <h2>West Germany Future Tech GmbH</h2>
+            <p>Innovation seit gestern.</p>
+            <p>Systemtechnik für die geordnete Zukunft seit 1984.</p>
+        </section>
+
+        <nav class="footer-block footer-button-nav" aria-label="Navigation im Fußbereich">
+            <h2>Betriebsstellen</h2>
+            <div class="plakette-footer">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <img src="Bilder/buttons/start.png" alt="Startseite">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="personelle-struktur.html">
+                        <img src="Bilder/buttons/struktur.png" alt="Personelle Struktur">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="messe.html">
+                        <img src="Bilder/buttons/messe.png" alt="Messe">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="produkte.html">
+                        <img src="Bilder/buttons/produkte.png" alt="Produkte">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="kontakt.html">
+                        <img src="Bilder/buttons/kontakt.png" alt="Kontakt">
+                    </a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+        </div>
+
+        <section class="footer-block footer-hinweis">
+            <h2>Amtlicher Hinweis</h2>
+            <p>Fiktives HTML/CSS-Übungsprojekt. Keine echte Firma. Keine echten Dienstleistungen.</p>
+
+            <p class="footer-rechtslinks">
+                <a href="impressum.html">Impressum</a>
+                <span>·</span>
+                <a href="datenschutz.html">Datenschutz</a>
+            </p>
+        </section>
+
+    </div>
+
+    <p class="footer-bottom">
+        <a href="#top">Nach oben</a>
+        © 1984–2026 WGFT · Betriebszustand: vorläufig einsatzbereit
+    </p>
+</footer>
+    </body>
+    </html>
 
     
     
-</body>
-<footer>
-    <h5>Telefon Telex Fax </h5>
-            <a href="#top">Nach oben</a>
-         <p>© 1984 West Germany Future Tech GmbH</p>
-</footer>
-</html>

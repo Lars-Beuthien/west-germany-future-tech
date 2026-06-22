@@ -1,0 +1,78 @@
+/*========================================================================================================================
+"West-Germany-Future-Tech GmbH"
+
+Datei: basis.css
+Datum: 17.06.2026
+Autor: Lars Beuthien
+
+Grundregeln der Website:
+- Schriftart
+- Grundfarben
+- Box-Modell
+- allgemeine HTML-Elemente
+- Links
+- Bilder
+- Grundverhalten von Formularen und Tabellen
+========================================================================================================================*/
+
+/* special-elite-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Special Elite";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/special-elite-v20-latin-regular.woff2") format("woff2");
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: whitesmoke;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Special Elite", "Courier New", Courier, monospace;
+    background-color: #b8b8b0;
+    color: #000000;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    color: inherit;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+input,
+textarea,
+button,
+select {
+    font: inherit;
+}
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+main h2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: beige;
+    padding: 0.6rem 0.6rem;
+    display: inline-block;
+    border-radius: 3px;
+    margin-left: 0.5rem;
+}

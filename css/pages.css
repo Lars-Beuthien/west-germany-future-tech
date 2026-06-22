@@ -1,0 +1,61 @@
+/*========================================================================================================================
+"West-Germany-Future-Tech GmbH"
+
+Datei: pages.css
+Datum: 17.06.2026
+Autor: Lars Beuthien
+
+Navigation:
+- Hauptnavigation
+- Navigationsbuttons
+========================================================================================================================*/
+
+/* Startseite */
+body.startseite {
+    margin: 0;
+    background-image: url("../Bilder/hintergrund1.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Belegschaft */
+body.belegschaft {
+    margin: 0;
+    background-image: url("../Bilder/mitarbeiter/image.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Messe */
+body.messe {
+    margin: 0;
+    background-image: url("../Bilder/messe/messe1.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body.messe main {
+    min-height: 100vh;
+}
+
+/* Kontakt */
+body.kontakt {
+    margin: 0;
+    background-image: url("../Bilder/mitarbeiter/Am-Apparat.png");
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    
+}
+
+/* Produkte */
+body.produkte {
+    margin: 0;
+    background-image: url("../Bilder/hintergrund1.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

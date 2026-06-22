@@ -9,13 +9,12 @@
 </head>
 <body class="belegschaft">
     <header class="hero">
-            <h1> 
-                <img  class="logo"
+         <a class="site-logo" href="index.html">
+        <img class="logo" 
                 src="Bilder/Logo transparenter Hintergrund 2.png"
                 alt="West Germany Future Tech GmbH">
-            </h1>
-            <h4>Made in West Germany since 1984</h4>
-       <h1>Personelle Struktur</h1>
+            </a>
+    <p class="claim">Made in West Germany since 1984</p>
     </header>
     <!--HEADER-NAV-->
         <nav class="hauptnavigation">
@@ -26,7 +25,7 @@
                     </a>
                 </li>    
                 <li>
-                    <a href="personelle-struktur.html">
+                    <a href="personelle-struktur.html" aria-current="page">
                     <img src="Bilder/buttons/struktur.png" alt="personelle-struktur">
                     </a>
                 </li>
@@ -47,64 +46,187 @@
             </li>
             </ul>
         </nav>
-    <main>
+
+
+
+
+
+    <main class="struktur">
+        <div class="plakette-position">
+            <div class="plakette-white-layer">
+                <div class="plakette">
+                <h1 class="schrift-plakette-personal-h1">Personelle Struktur</h1>
+                </div>
+            </div>
+        </div>
         <!--Geschäftsführung-->
-        <h1>Geschäftsführung</h1>
-            <figure class="Klaus-Dieter">
+        <section class="content-band">
+            <h2>Geschäftsführung</h2>
+            <figure class="geschaeftsfuehrer">
                 <img class="Personal-Geschaeftsfuehrung"
             src="Bilder/mitarbeiter/Geschäftsführer.png"
             alt="Klaus Dieter Hoffmann - Geschäftsführer">
             <figcaption>Klaus Dieter Hoffmann - Geschäftsführer</figcaption>
             </figure>
-            <!--Planung - Ingenieure-->
-            <h2>Planung</h2>
-            <section class="ingenieure">
-            <figure class="planung">
-                <img class="mitarbeiter"
-                src="Bilder/mitarbeiter/Bernd Schulte-Frohn.png"
-                alt="Bernd Schulte-Frohn">
-                <figcaption> Dipl. Ing. Bernd Schulte-Frohn - Leiter Systemintegration</figcaption>
-                </figure>
-                <figure class="planung">
-                <img class="mitarbeiter"
-                src="Bilder/mitarbeiter/Klaus Peter Hagemann.png"
-                alt="Klaus Peter Hagemann">
-                <figcaption>Ing. grad. Klaus-Peter Hagemann</figcaption>
-                </figure>
-                <figure class="planung">
-                <img class="mitarbeiter"
-                src="Bilder/mitarbeiter/Rolf-Dieter Kranz.png"
-                alt="Rolf-Dieter Kranz">
-                <figcaption>Dr.-Ing. Rolf-Dieter Kranz</figcaption>
-            </figure>
-            </section>
-            <!--Büro-->
-            <h2>Büro</h2>
-            <section class="büromitarbeiter">
-                <figure class="büro">
-                    <img class="mitarbeiter"
-                    src="Bilder/mitarbeiter/Manfred Kölling Vertriebsleitung Inland.png"
-                    alt="Manfred Kölling Vertriebsleitung Inland">
-                    <figcaption>Manfred Kölling Vertriebsleitung Inland</figcaption>
-                </figure>
-                <figure class="büro">
-                    <img class="mitarbeiter"
-                    src="Bilder/mitarbeiter/Erika Meißner.png"
-                    alt="Erika Meißner">
-                    <figcaption>Erika Meißner</figcaption>
-                </figure>
-                <figure class="büro">
-                    <img class="mitarbeiter"
-                    src="Bilder/mitarbeiter/Frln. Krüger.png"
-                    alt="Frln. Krüger">
-                    <figcaption>Frln. Krüger</figcaption>
-                </figure>
-            </section>
-    </main>
-</body>
-<footer>
-    <h5>Telefon Telex Fax </h5>
-            <a href="#top">Nach oben</a>
-         <p>© 1984 West Germany Future Tech GmbH</p>
+        </section> 
+        
+        
+
+
+
+       <!--Planung - Ingenieure-->
+    <section class="content-band">
+    <h2>Planung</h2>
+    <div class="bueromitarbeiter">
+        <figure class="personalbereich">
+            <img class="mitarbeiter"
+                 src="Bilder/mitarbeiter/Bernd Schulte-Frohn.png"
+                 alt="Bernd Schulte-Frohn">
+            <figcaption>Dipl. Ing. Bernd Schulte-Frohn - Leiter Systemintegration</figcaption>
+        </figure>
+
+        <figure class="personalbereich">
+            <img class="mitarbeiter"
+                 src="Bilder/mitarbeiter/Klaus Peter Hagemann.png"
+                 alt="Klaus Peter Hagemann">
+            <figcaption>Ing. grad. Klaus-Peter Hagemann</figcaption>
+        </figure>
+
+        <figure class="personalbereich">
+            <img class="mitarbeiter"
+                 src="Bilder/mitarbeiter/Rolf-Dieter Kranz.png"
+                 alt="Rolf-Dieter Kranz">
+            <figcaption>Dr.-Ing. Rolf-Dieter Kranz</figcaption>
+        </figure>
+    </div>
+</section>
+
+<!--Büro-->
+<section class="content-band">
+    <h2>Büro</h2>
+    <div class="bueromitarbeiter">
+        <figure class="personalbereich">
+            <img class="mitarbeiter"
+                 src="Bilder/mitarbeiter/Manfred Kölling Vertriebsleitung Inland.png"
+                 alt="Manfred Kölling Vertriebsleitung Inland">
+            <figcaption>Manfred Kölling Vertriebsleitung Inland</figcaption>
+        </figure>
+
+        <figure class="personalbereich">
+            <img class="mitarbeiter"
+                 src="Bilder/mitarbeiter/Erika Meißner.png"
+                 alt="Erika Meißner">
+            <figcaption>Erika Meißner Buchhaltung Rechnungsprüfung Mahnwesen</figcaption>
+        </figure>
+
+        <figure class="personalbereich">
+            <img class="mitarbeiter"
+                 src="Bilder/mitarbeiter/Frln. Krüger.png"
+                 alt="Frln. Krüger">
+            <figcaption>Frln. Krüger Vorzimmer Telex</figcaption>
+        </figure>
+    </div>
+</section>
+
+<!--Fertigung-->
+<section class="content-band">
+    <h2>Fertigung</h2>
+    <div class="bueromitarbeiter">
+        <figure class="personalbereich">
+            <img class="mitarbeiter"
+                 src="Bilder/mitarbeiter/Meister Willi Grothe.png"
+                 alt="Willi Grothe Fertigungsmeister">
+            <figcaption>Willi Grothe - Fertigungsmeister</figcaption>
+        </figure>
+
+        <figure class="personalbereich">
+            <img class="mitarbeiter"
+                 src="Bilder/mitarbeiter/Rainer-Schulte-Geselle.png"
+                 alt="Rainer Schulte Geselle">
+            <figcaption>Rainer Schulte - Geselle Zerspanung</figcaption>
+        </figure>
+
+        <figure class="personalbereich">
+            <img class="mitarbeiter"
+                 src="Bilder/mitarbeiter/Mehmet-Yilmaz-Altgeselle.png"
+                 alt="Mehmetz Yilmaz">
+            <figcaption>Mehmet Yilmaz - Leiter Blechbearbeitung</figcaption>
+        </figure>
+        <figure class="personalbereich">
+            <img class="mitarbeiter"
+                 src="Bilder/mitarbeiter/Ronny - Lehrling1.png"
+                 alt="Ronny">
+            <figcaption>Ronny - Lehrling </figcaption>
+        </figure>
+    </div>
+</section>
+
+        </main>
+     <footer class="site-footer">
+    <div class="footer-inner">
+        <div class="vertical-container">
+
+        <section class="footer-block footer-info">
+            <h2>West Germany Future Tech GmbH</h2>
+            <p>Innovation seit gestern.</p>
+            <p>Systemtechnik für die geordnete Zukunft seit 1984.</p>
+        </section>
+
+        <nav class="footer-block footer-button-nav" aria-label="Navigation im Fußbereich">
+            <h2>Betriebsstellen</h2>
+            <div class="plakette-footer">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <img src="Bilder/buttons/start.png" alt="Startseite">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="personelle-struktur.html">
+                        <img src="Bilder/buttons/struktur.png" alt="Personelle Struktur">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="messe.html">
+                        <img src="Bilder/buttons/messe.png" alt="Messe">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="produkte.html">
+                        <img src="Bilder/buttons/produkte.png" alt="Produkte">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="kontakt.html">
+                        <img src="Bilder/buttons/kontakt.png" alt="Kontakt">
+                    </a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+        </div>
+
+        <section class="footer-block footer-hinweis">
+            <h2>Amtlicher Hinweis</h2>
+            <p>Fiktives HTML/CSS-Übungsprojekt. Keine echte Firma. Keine echten Dienstleistungen.</p>
+
+            <p class="footer-rechtslinks">
+                <a href="impressum.html">Impressum</a>
+                <span>·</span>
+                <a href="datenschutz.html">Datenschutz</a>
+            </p>
+        </section>
+
+    </div>
+
+    <p class="footer-bottom">
+        <a href="#top">Nach oben</a>
+        © 1984–2026 WGFT · Betriebszustand: vorläufig einsatzbereit
+    </p>
 </footer>
+</body>
 </html>

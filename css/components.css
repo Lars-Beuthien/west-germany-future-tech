@@ -1,0 +1,637 @@
+/*========================================================================================================================
+"West-Germany-Future-Tech GmbH"
+
+Datei: components.css
+Datum: 17.06.2026
+Autor: Lars Beuthien
+
+Wiederverwendbare Bauteile:
+- Startseitenmodule
+- Infoboxen
+- Galerien
+- Mitarbeiterdarstellung
+- Produktdarstellung
+- Tabellen
+========================================================================================================================*/
+
+
+/*========================================================================================================================
+Startseite: Mittelstreifen
+========================================================================================================================*/
+
+.mittelstreifen {
+    max-width: 90%;
+    width: 100rem;
+    margin-inline: auto;
+    
+    padding: 3rem;
+    background-color: rgba(105, 58, 21, 0.596);
+    border-radius: 5px;
+    background:
+    linear-gradient(
+        90deg,
+        rgba(25, 25, 23, 0.85),
+        rgba(55, 54, 50, 0.82),
+        rgba(25, 25, 23, 0.85)
+    );
+    
+}
+
+
+
+@media (max-width: 700px) {
+    .content-track {
+        width: 94%;
+    }
+}
+
+
+/*========================================================================================================================
+Startseite: Firmenbild
+========================================================================================================================*/
+
+.firmenbild {
+    
+    margin-top: 10rem;
+    padding: 0 3rem 0 3rem;
+    
+}
+
+.firmenbild img {
+    width: 100%;
+    max-width: none;
+    height: auto;
+    display: block;
+    border-radius: 0.5rem;
+}
+
+
+/*========================================================================================================================
+Startseite: Intro
+========================================================================================================================*/
+
+.intro {
+    max-width: 1100px;
+    margin: 3rem auto;
+    padding: 1rem;
+    background-color: #413f3cd2;
+    border: 1px solid #b3b1a9;
+    color: whitesmoke;
+    border-radius: 0.5rem;
+}
+
+.intro p {
+    max-width: 1000px;
+}
+
+
+/*========================================================================================================================
+Startseite: Infoboxen
+========================================================================================================================*/
+
+.infoboxen {
+    max-width: 1500px;
+    padding: 3rem 3rem 8rem 3rem;
+    margin: 10rem auto;
+    background-color: #291b0ed2;
+    border: 5px solid  #201a09;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    background:
+        repeating-linear-gradient(
+            90deg,
+            #110702 0 4px,
+            #553628 4px 6px,
+            #301c06 6px 12px
+        );
+
+}
+
+.infoboxen > h2 {
+    align-self: flex-start;
+}
+
+.infobox {
+    text-align: center;
+    background-color: rgba(71, 71, 70, 0.418);
+    padding: 1rem;
+    margin: 0;
+    border-radius: 0.5rem;
+    border: 5px solid black;
+   
+}
+
+.startseite p {
+    font-size: 1.5rem;
+    
+}
+
+.startseite .infobox > p {
+    width: fit-content;
+    max-width: 70rem;
+    margin-inline: auto;
+    padding: 0.5rem 0.8rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: beige;
+    border-radius: 5px;
+}
+.img-startseite {
+    box-shadow:
+        0 0.8rem 1.5rem rgba(0, 0, 0, 0.55),
+        0 0 0 1px rgba(0, 0, 0, 0.35);
+}
+
+/*========================================================================================================================
+Startseite: Produktgalerie
+========================================================================================================================*/
+
+.product-gallery {
+    display: flex;
+    gap: 1rem;
+}
+
+.product-gallery figure {
+    width: 45%;
+    margin: 0;
+}
+
+.product {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*========================================================================================================================
+Startseite: Messeauftritt
+========================================================================================================================*/
+
+.messe-gallery {
+    display: flex;
+    gap: 1rem;
+}
+
+.messe-gallery figure {
+    width: 45%;
+    margin: 0;
+}
+
+.messe {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/*========================================================================================================================
+Belegschaft: Mitarbeiterdarstellung
+========================================================================================================================*/
+.struktur h2 {
+   margin: 0 0 3rem 1rem;
+}
+
+.plakette-position {
+    margin-top: 3rem;
+    text-align: center;
+}
+.plakette {
+    width: fit-content;
+    margin: 0;
+    padding: 0.4rem 1.2rem;
+    border: 1px solid beige;
+    border-radius: 3px;
+    background-color: black;
+    color: rgb(241, 240, 228);
+    text-align: center;
+    outline: 3px solid black;
+
+    background:
+        linear-gradient(
+            179deg,
+              rgba(255, 255, 255, 0.08) 0%,
+              rgba(20, 20, 20, 1) 28%,
+              rgba(0, 0, 0, 1) 100%
+        );
+
+        box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.45),
+        inset 0 -4px 8px rgba(0, 0, 0, 0.8),
+        0 4px 10px rgba(0, 0, 0, 0.55);
+    
+}
+
+.plakette .schrift-plakette-personal-h1 {
+    font-family: "Special Elite", "Courier New", Courier, monospace;
+    font-weight: 400;
+    color: beige;
+    margin: 0;
+    display: inline-block;
+    padding: 1rem 0 0.8rem 0;
+}
+.plakette-white-layer {
+    display: inline-block;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(107, 106, 106);
+    border-radius: 4px;
+}
+
+.geschaeftsfuehrer {
+    max-width: 100%;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+/*========================================================================================================================
+Allgemeines Inhaltsband
+========================================================================================================================*/
+
+.content-band {
+    width: 100%;
+    padding: 3rem 0;
+    margin: 5rem 0;
+    background-color: rgba(51, 50, 48, 0.65);
+    
+}
+
+.konstruktionsmitte {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.personalbereich {
+    max-width: 100%;
+    width: 30%;
+    margin: 0;
+    text-align: center;
+}
+
+.mitarbeiter {
+    width: 100%;
+    display: block;
+}
+
+.bueromitarbeiter {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+
+.belegschaft img {
+    border-radius: 5px 5px 0 0;
+}
+
+
+
+.belegschaft figcaption {
+     background-color: rgba(0, 0, 0, 1);
+    width: 100%;
+    box-sizing: border-box;
+    color: beige;
+    padding: 0.6rem 0.6rem;
+    display: inline-block;
+    border-radius: 0 0 5px 5px;
+}
+
+
+/*========================================================================================================================
+Tabellen
+========================================================================================================================*/
+
+table {
+    background-color: #000000;
+    color: beige;
+    border: 1px solid beige;
+    margin: 3rem 1rem 1rem 3rem;
+    outline: 1rem solid black;
+    max-width: 70%;
+    width: 700px;
+    
+}
+
+table th,
+table td {
+    border: 1px solid rgb(233, 224, 224);
+   
+    padding: 3px 3px 1px 3px;
+    
+    
+}
+
+
+
+
+
+
+
+
+/*========================================================================================================================
+Belegschaft: Beschriftungen
+========================================================================================================================*/
+
+
+
+
+.belegschaft h3,
+.belegschaft figcaption span,
+.belegschaft caption {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: beige;
+    padding: 0.3rem 0.6rem;
+    display: inline-block;
+    border-radius: 3px;
+    margin-left: 0.5rem;
+}
+
+/*========================================================================================================================
+Produkte: Bildgruppen
+========================================================================================================================*/
+
+.produktbilder {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 1rem auto;
+    
+    
+    
+}
+
+
+
+.telebuero a {
+    display: block;
+}
+
+.img-produkte {
+    max-width: 45%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.img-startseite {
+    max-width: 75%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+
+.img-produkte-klickbar {
+    max-width: 75vw;
+    height: auto;
+    cursor: zoom-in;
+}
+
+.produktbilder figcaption {
+    flex: 0 0 100%;
+    text-align: center;
+}
+
+.produkte .content-band {
+    scroll-margin-top: 5rem;
+}
+
+
+
+
+/*========================================================================================================================
+Produkte: Beschriftungen
+========================================================================================================================*/
+
+
+
+.produkte h3,
+.produkte figcaption span,
+.produkte caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: beige;
+    padding: 0.6rem 0.6rem;
+    display: inline-block;
+    border-radius: 3px;
+    margin-left: 0.5rem;
+}
+
+.produkte h2 {
+    font-size: 1.5rem;
+}
+
+
+.produktgruppen-beschreibung {
+    display: block;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: beige;
+    padding: 0.3rem 0.6rem;
+}
+.plakette-position {
+    margin-bottom: 10rem;
+}
+
+/*========================================================================================================================
+Messe
+========================================================================================================================*/
+
+
+/*========================================================================================================================
+Messe: Beschriftungen
+========================================================================================================================*/
+
+
+
+.messe h3,
+.messe figcaption span,
+.messe caption {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: beige;
+    padding: 0.6rem 0.6rem;
+    display: inline-block;
+    border-radius: 3px;
+    margin-left: 0.5rem;
+}
+
+.messe h2 {
+    font-size: 1.5rem;
+}
+
+
+/*========================================================================================================================
+Kontakt
+========================================================================================================================*/
+
+
+.kontakt .content-band {
+    margin-top: 20rem;
+}
+
+
+
+/*========================================================================================================================
+Footer
+========================================================================================================================*/
+
+
+/*========================================================================================================================
+Footer-Komponente
+========================================================================================================================*/
+
+.site-footer {
+    margin-top: 0;
+    padding: 2rem 1.5rem 1rem;
+    border-top: 3px solid #201a09;
+    background-color: #242424;
+    color: #cccac6;
+
+    
+}
+
+.site-footer .footer-inner {
+    max-width: 80rem;
+    margin-inline: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2.5rem;
+}
+
+.site-footer .footer-block {
+    flex: 1;
+}
+
+.site-footer h2 {
+    margin-top: 0;
+    margin-bottom: 0.1rem;
+
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+.site-footer p,
+.site-footer li,
+.site-footer .footer-bottom {
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+
+.site-footer a {
+    color: #bd8708;
+    text-decoration: none;
+}
+
+.site-footer a:hover,
+.site-footer a:focus-visible {
+    text-decoration: underline;
+}
+
+/* Footer-Button-Navigation */
+
+.site-footer .footer-button-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+
+.site-footer .footer-button-nav li {
+    margin: 0;
+    padding: 0;
+}
+
+.site-footer .footer-button-nav a {
+    display: block;
+}
+
+.site-footer .footer-button-nav img {
+    width: 55px;
+    height: auto;
+    display: block;
+
+    transition: transform 120ms ease, filter 120ms ease;
+}
+
+.site-footer .footer-button-nav a:hover img,
+.site-footer .footer-button-nav a:focus-visible img {
+    transform: translateY(-1px);
+    filter: brightness(1.15) contrast(1.08);
+}
+
+.site-footer .footer-button-nav a:active img {
+    transform: translateY(1px);
+    filter: brightness(0.85) contrast(1.15);
+}
+
+/* Rechtliches / Status */
+
+.site-footer .footer-rechtslinks {
+    margin-top: 1rem;
+}
+
+.site-footer .footer-rechtslinks span {
+    margin-inline: 0.4rem;
+    color: #b8b1a3;
+}
+
+.site-footer .footer-bottom {
+    max-width: 80rem;
+    margin: 2rem auto 0;
+    padding-top: 1rem;
+
+    border-top: 1px solid rgba(216, 208, 189, 0.25);
+
+    text-align: center;
+    color: #b8b1a3;
+}
+
+/* Mobile vorbereitet, stört Desktop nicht */
+
+@media (max-width: 700px) {
+    .site-footer .footer-inner {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .site-footer .footer-bottom {
+        text-align: left;
+    }
+}
+
+.site-footer .footer-info p {
+    margin: 0.15rem 0;
+}
+
+.vertical-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.site-footer .footer-hinweis {
+    text-align: right;
+}
+
+.plakette-footer {
+    background-color: #181717;
+    border: 1px solid rgb(71, 70, 70);
+    padding: 0.5rem;
+    border-radius: 3px;
+}
+
+
+
