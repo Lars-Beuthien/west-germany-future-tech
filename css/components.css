@@ -27,7 +27,7 @@ Startseite: Mittelstreifen
     padding: 3rem;
     background-color: rgba(105, 58, 21, 0.596);
     border-radius: 5px;
-    background:
+    background:nfrei
     linear-gradient(
         90deg,
         rgba(25, 25, 23, 0.85),
@@ -309,21 +309,41 @@ table {
     background-color: #000000;
     color: beige;
     border: 1px solid beige;
-    margin: 3rem 1rem 1rem 3rem;
+    margin:  3rem 5rem 3rem 2rem;
     outline: 1rem solid black;
-    max-width: 70%;
-    width: 700px;
+    width: min(700px, calc(100% - 4rem));
+    max-width: calc(100% - 4rem);
+    
     
 }
+
+
 
 table th,
 table td {
     border: 1px solid rgb(233, 224, 224);
-   
     padding: 3px 3px 1px 3px;
+    overflow-wrap: anywhere;
+    word-break: break-word;
     
     
 }
+
+.produkte caption {
+    caption-side: top;
+    text-align: center;
+    width: 100%;
+    display: table-caption;
+
+    background-color: #000;
+    color: beige;
+    border: 1px solid beige;
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-decoration: underline;
+   
+}
+
 
 
 
@@ -414,14 +434,15 @@ Produkte: Beschriftungen
 
 
 .produkte h3,
-.produkte figcaption span,
-.produkte caption {
+.produkte figcaption span {
     background-color: rgba(0, 0, 0, 0.6);
     color: beige;
     padding: 0.6rem 0.6rem;
     display: inline-block;
     border-radius: 3px;
     margin-left: 0.5rem;
+     max-width: calc(100% - 1rem);
+    overflow-wrap: anywhere;
 }
 
 .produkte h2 {
