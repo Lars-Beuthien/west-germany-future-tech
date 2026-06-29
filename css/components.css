@@ -341,8 +341,7 @@ table td {
 .produkte caption {
     caption-side: top;
     text-align: center;
-    width: 100%;
-    display: table-caption;
+    
 
     background-color: #000;
     color: beige;
@@ -350,6 +349,7 @@ table td {
     padding: 1rem;
     font-size: 1.2rem;
     text-decoration: underline;
+   
    
 }
 
