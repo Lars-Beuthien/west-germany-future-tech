@@ -25,9 +25,9 @@ Startseite: Mittelstreifen
     margin-inline: auto;
     
     padding: 3rem;
-    background-color: rgba(105, 58, 21, 0.596);
+    background-color: rgba(25, 25, 23, 0.85);
     border-radius: 5px;
-    background:nfrei
+    background:
     linear-gradient(
         90deg,
         rgba(25, 25, 23, 0.85),
@@ -141,6 +141,15 @@ Startseite: Infoboxen
     box-shadow:
         0 0.8rem 1.5rem rgba(0, 0, 0, 0.55),
         0 0 0 1px rgba(0, 0, 0, 0.35);
+}
+
+.startseite h2,
+.startseite h3,
+.startseite p {
+
+      max-width: calc(100% - 1rem);
+    overflow-wrap: anywhere;
+
 }
 
 /*========================================================================================================================
@@ -296,7 +305,7 @@ Allgemeines Inhaltsband
     box-sizing: border-box;
     color: beige;
     padding: 0.6rem 0.6rem;
-    display: inline-block;
+    display: block;
     border-radius: 0 0 5px 5px;
 }
 
@@ -359,15 +368,32 @@ Belegschaft: Beschriftungen
 
 
 
-.belegschaft h3,
-.belegschaft figcaption span,
-.belegschaft caption {
+.belegschaft h3
+
+
+{
     background-color: rgba(0, 0, 0, 0.75);
     color: beige;
     padding: 0.3rem 0.6rem;
     display: inline-block;
     border-radius: 3px;
     margin-left: 0.5rem;
+      max-width: calc(100% - 1rem);
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    hyphens: auto;
+
+}
+
+.belegschaft figcaption {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    hyphens: auto;
 }
 
 /*========================================================================================================================
@@ -481,6 +507,9 @@ Messe: Beschriftungen
     display: inline-block;
     border-radius: 3px;
     margin-left: 0.5rem;
+      max-width: calc(100% - 1rem);
+    overflow-wrap: anywhere;
+
 }
 
 .messe h2 {
