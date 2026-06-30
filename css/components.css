@@ -69,6 +69,13 @@ Startseite: Firmenbild
     border-radius: 0.5rem;
 }
 
+@media (max-width: 900px) {
+    .firmenbild {
+        padding: 0;
+        margin: 1rem;
+    }
+}
+
 
 /*========================================================================================================================
 Startseite: Intro
@@ -143,6 +150,13 @@ Startseite: Infoboxen
     border-radius: 0.5rem;
     border: 5px solid black;
    
+}
+
+.infobox h2 {
+    width: fit-content;
+    max-width: calc(100% - 1rem);
+    margin-inline: auto;
+    text-align: center;
 }
 
 @media (max-width: 900px) {
