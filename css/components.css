@@ -293,6 +293,12 @@ Belegschaft: Mitarbeiterdarstellung
     display: block;
 }
 
+@media (max-width: 900px) {
+    .geschaeftsfuehrer {
+        width: 75%;
+    }
+}
+
 /*========================================================================================================================
 Allgemeines Inhaltsband
 ========================================================================================================================*/
@@ -338,15 +344,31 @@ Allgemeines Inhaltsband
 
 
 
+
+
 .belegschaft figcaption {
-     background-color: rgba(0, 0, 0, 1);
-    width: 100%;
-    box-sizing: border-box;
-    color: beige;
-    padding: 0.6rem 0.6rem;
     display: block;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-left: 0;
+
+    background-color: #000;
+    color: beige;
+    padding: 0.6rem;
     border-radius: 0 0 5px 5px;
+
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    hyphens: auto;
 }
+
+@media (max-width: 900px) {
+    .belegschaft figcaption {
+        font-size: 0.6rem;
+    }
+}
+
 
 
 /*========================================================================================================================
@@ -424,16 +446,7 @@ Belegschaft: Beschriftungen
 
 }
 
-.belegschaft figcaption {
-    display: block;
-    width: 100%;
-    max-width: 100%;
-    margin-left: 0;
-    
-    overflow-wrap: anywhere;
-    word-break: break-word;
-    hyphens: auto;
-}
+
 
 /*========================================================================================================================
 Produkte: Bildgruppen
