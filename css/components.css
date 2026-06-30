@@ -291,6 +291,7 @@ Belegschaft: Mitarbeiterdarstellung
     width: 50%;
     margin: 0 auto;
     display: block;
+    text-align: center;
 }
 
 @media (max-width: 900px) {
@@ -320,7 +321,7 @@ Allgemeines Inhaltsband
 
 .personalbereich {
     max-width: 100%;
-    width: 30%;
+    width: 45%;
     margin: 0;
     text-align: center;
 }
