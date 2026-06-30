@@ -479,6 +479,13 @@ Produkte: Bildgruppen
     
     
     
+    
+}
+
+@media (max-width: 900px) {
+    .produktbilder {
+        padding: 0.5rem;
+    }
 }
 
 
@@ -492,6 +499,12 @@ Produkte: Bildgruppen
     height: auto;
     object-fit: contain;
     border-radius: 5px;
+}
+
+@media (max-width: 900px) {
+    .img-produkte {
+        
+    }
 }
 
 .img-startseite {
