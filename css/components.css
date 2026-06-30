@@ -503,7 +503,8 @@ Produkte: Bildgruppen
 
 @media (max-width: 900px) {
     .img-produkte {
-        
+        max-width: 95%;
+        width: 85%;
     }
 }
 
