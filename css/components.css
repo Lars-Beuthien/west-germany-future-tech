@@ -39,7 +39,7 @@ Startseite: Mittelstreifen
 
 
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     .mittelstreifen {
         max-width: calc(100% - 1rem);
         width: auto;
@@ -113,7 +113,7 @@ Startseite: Infoboxen
 
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     .infoboxen {
         padding: 1rem 1rem 4rem 1rem;
         margin: 5rem auto;
@@ -145,7 +145,7 @@ Startseite: Infoboxen
    
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     .infobox {
     border: 1px solid black;
     padding: 0.25rem;    
@@ -158,7 +158,7 @@ Startseite: Infoboxen
     
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     .startseite p {
         font-size: 1rem;
     }
@@ -473,7 +473,7 @@ Produkte: Bildgruppen
     border-radius: 5px;
 }
 
-@media (max-width: 700px)  {
+@media (max-width: 900px)  {
         .img-startseite {
             max-width: calc(100% - 4px);
 
@@ -698,7 +698,7 @@ Footer-Komponente
 
 /* Mobile vorbereitet, stört Desktop nicht */
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     .site-footer .footer-inner {
         flex-direction: column;
         gap: 1.5rem;
