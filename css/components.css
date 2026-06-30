@@ -40,8 +40,12 @@ Startseite: Mittelstreifen
 
 
 @media (max-width: 700px) {
-    .content-track {
-        width: 94%;
+    .mittelstreifen {
+        max-width: calc(100% - 1rem);
+        width: auto;
+        margin: 0 auto;
+        padding: 0;
+        padding-top: 1rem;
     }
 }
 
@@ -72,7 +76,7 @@ Startseite: Intro
 
 .intro {
     max-width: 1100px;
-    margin: 3rem auto;
+    margin: 3rem 1rem;
     padding: 1rem;
     background-color: #413f3cd2;
     border: 1px solid #b3b1a9;
@@ -109,6 +113,24 @@ Startseite: Infoboxen
 
 }
 
+@media (max-width: 700px) {
+    .infoboxen {
+        padding: 1rem 1rem 4rem 1rem;
+        margin: 5rem auto;
+        background-color: #291b0e34;
+        border: none;
+        background:
+        repeating-linear-gradient(
+            90deg,
+            #11070280 0 4px,
+            #5536287e 4px 6px,
+            #301c067c 6px 12px
+        );
+        
+
+    }
+}
+
 .infoboxen > h2 {
     align-self: flex-start;
 }
@@ -123,9 +145,23 @@ Startseite: Infoboxen
    
 }
 
+@media (max-width: 700px) {
+    .infobox {
+    border: 1px solid black;
+    padding: 0.25rem;    
+    }
+    
+}
+
 .startseite p {
     font-size: 1.5rem;
     
+}
+
+@media (max-width: 700px) {
+    .startseite p {
+        font-size: 1rem;
+    }
 }
 
 .startseite .infobox > p {
@@ -137,6 +173,9 @@ Startseite: Infoboxen
     color: beige;
     border-radius: 5px;
 }
+
+
+
 .img-startseite {
     box-shadow:
         0 0.8rem 1.5rem rgba(0, 0, 0, 0.55),
@@ -432,6 +471,14 @@ Produkte: Bildgruppen
     height: auto;
     object-fit: contain;
     border-radius: 5px;
+}
+
+@media (max-width: 700px)  {
+        .img-startseite {
+            max-width: calc(100% - 4px);
+
+        }
+    
 }
 
 
