@@ -1,0 +1,46 @@
+/*===========Dieses stylesheet dient der Gestaltung der mobilen Navi Bar mit Menü button====*/
+
+.hauptnavigation {
+    background-color: rgb(203, 203, 226);
+    color: black;
+    box-shadow: 0 2px 6px var(--schattenfarbe);
+    margin-bottom: 2rem;
+}
+
+
+.hauptnavigation ul {
+    display: flex;
+    flex-flow: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.hauptnavigation a {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1rem;
+    background: rgb(52, 52, 63);
+    color: white;
+    padding-left: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-top: 0.2rem;
+    border: 1px solid rgb(0, 0, 0);
+}
+.hauptnavigation img {
+    width: 20px;
+}
+
+.hauptnavigation li [aria-current] a,
+.hauptnavigation a:hover,
+.hauptznavigation a:focus {
+background: grey;
+color: aquamarine;
+text-decoration: underline;
+text-underline-offset: 0.15em;
+text-decoration-thickness: 1px;
+
+}
