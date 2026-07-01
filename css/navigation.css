@@ -65,3 +65,8 @@ Navigation:
     transition: transform 120ms ease, filter 120ms ease;
 }
 
+.hauptnavigation .nav-text-desktop {
+    display: none;
+
+}
+
