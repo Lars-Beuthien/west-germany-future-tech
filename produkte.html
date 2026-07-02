@@ -21,7 +21,7 @@
     </header>
          <!--//////////HEADER-NAV//////////-->
         <nav class="hauptnavigation">
-            <ul>
+            <ul id="hauptmenue">
                 <li>
                     <a href="index.html">
                       <img src="Bilder/buttons/start.png" alt="Startseite"><span class="nav-text-desktop">Startseite</span>
@@ -944,6 +944,17 @@
         © 1984–2026 WGFT · Betriebszustand: vorläufig einsatzbereit
     </p>
 </footer>
+<template id="menubutton-template">
+    <button 
+    class="menubutton"
+    aria-expanded="false"
+    aria-controls="hauptmenue"
+    type="button">
+    <img src="Bilder/buttons/button-blank- ausgeschnitten.png" alt="">
+    <span>MENÜ</span>
+</button>
+</template>
+<script src="js/menubutton.js"></script>
     </body>
     </html>
 

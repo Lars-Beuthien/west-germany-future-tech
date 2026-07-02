@@ -78,3 +78,105 @@ text-decoration-thickness: 1px;
     drop-shadow(0 0 0.1rem rgba(255, 255, 255, 0.25))
     
 }
+
+.menubutton {
+    position: relative;
+    display: inline-block;
+
+    width: 40px;
+    padding: 0;
+    border: 0;
+    margin: 0.2rem;
+
+    background: transparent;
+    cursor: pointer;
+}
+
+.menubutton img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.menubutton span {
+    position: absolute;
+    inset: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: beige;
+    font-family: "Special Elite", monospace;
+    font-size: 0.43rem;
+    letter-spacing: 0.05em;
+    text-align: center;
+
+    pointer-events: none;
+}
+
+.hauptnavigation {
+    background-color: rgb(52, 52, 63);
+    color: white;
+    box-shadow: 0 2px 6px rgb(54, 52, 52);
+    margin-bottom: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.menubutton {
+    position: relative;
+    display: inline-block;
+
+    width: 40px;
+    padding: 0;
+    border: 0;
+    margin: 0.2rem;
+
+    background: transparent;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.menubutton img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.menubutton span {
+    position: absolute;
+    inset: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    font-family: "Special Elite", monospace;
+    font-size: 0.45rem;
+    line-height: 1;
+    text-align: center;
+
+    pointer-events: none;
+}
+
+.hauptnavigation ul {
+    display: flex;
+    flex-flow: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menubutton[aria-expanded="false"] + ul {
+    display: none;
+}
+
+.menubutton[aria-expanded="true"] + ul {
+    display: flex;
+    flex-flow: column;
+}
+
