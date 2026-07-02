@@ -46,7 +46,7 @@ Navigation:
     width: 40px;
 }
 
-.hauptnavigation a [aria-current="page"] ,
+.hauptnavigation a[aria-current="page"],
 .hauptnavigation a:hover,
 .hauptnavigation a:focus {
 background: grey;
