@@ -57,13 +57,13 @@ Startseite: Firmenbild
 .firmenbild {
     
     margin-top: 10rem;
-    padding: 0 3rem 0 3rem;
+    padding: 0;
     
 }
 
 .firmenbild img {
     width: 100%;
-    max-width: none;
+    max-width: 100%;
     height: auto;
     display: block;
     border-radius: 0.5rem;
@@ -71,8 +71,8 @@ Startseite: Firmenbild
 
 @media (max-width: 900px) {
     .firmenbild {
-        padding: 0;
-        margin: 1rem;
+        padding: 5rem 0 0 0;
+        margin: 0;
     }
 }
 
@@ -110,13 +110,7 @@ Startseite: Infoboxen
     display: flex;
     flex-direction: column;
     gap: 5rem;
-    background:
-        repeating-linear-gradient(
-            90deg,
-            #110702 0 4px,
-            #553628 4px 6px,
-            #301c06 6px 12px
-        );
+    
 
 }
 
