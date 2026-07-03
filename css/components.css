@@ -82,10 +82,10 @@ Startseite: Intro
 ========================================================================================================================*/
 
 .intro {
-    max-width: 1100px;
-    margin: 3rem 1rem;
+    max-width: 100%;
+    margin: 3rem 0;
     padding: 1rem;
-    background-color: #413f3cd2;
+    
     border: 1px solid #b3b1a9;
     color: whitesmoke;
     border-radius: 0.5rem;
@@ -101,8 +101,8 @@ Startseite: Infoboxen
 ========================================================================================================================*/
 
 .infoboxen {
-    max-width: 1500px;
-    padding: 3rem 3rem 8rem 3rem;
+    max-width: 100%;
+    padding: 3rem 0 8rem 0;
     margin: 10rem auto;
     background-color: #291b0ed2;
     border: 5px solid  #201a09;
@@ -698,7 +698,7 @@ Footer-Komponente
 }
 
 .site-footer .footer-button-nav img {
-    width: 55px;
+    width: 40px;
     height: auto;
     display: block;
 
