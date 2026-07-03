@@ -94,6 +94,11 @@ text-decoration-thickness: 1px;
 }
 */
 
+.hilfsbox {
+    display: flex;
+    flex-direction: row;
+}
+
 
 .menubutton img {
     display: block;
