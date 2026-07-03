@@ -213,6 +213,14 @@ Startseite: Produktgalerie
     margin: 0;
 }
 
+@media (max-width: 900px) {
+    .product-gallery figure {
+        max-width: 100%;
+        width: 95%;
+    }
+    
+}
+
 .product {
     width: 100%;
     height: auto;
@@ -231,6 +239,14 @@ Startseite: Messeauftritt
 .messe-gallery figure {
     width: 45%;
     margin: 0;
+}
+
+@media (max-width: 900px) {
+    .messe-gallery figure  {
+        max-width: 100%;
+        width: 95%;
+    }
+    
 }
 
 .messe {
@@ -304,7 +320,8 @@ Belegschaft: Mitarbeiterdarstellung
 
 @media (max-width: 900px) {
     .geschaeftsfuehrer {
-        width: 75%;
+        width: 95%;
+        max-width: 100%;
     }
 }
 
@@ -332,6 +349,14 @@ Allgemeines Inhaltsband
     width: 45%;
     margin: 0;
     text-align: center;
+}
+
+@media (max-width: 900px) {
+    .personalbereich  {
+        max-width: 100%;
+        width: 95%;
+    }
+    
 }
 
 .mitarbeiter {
@@ -497,8 +522,8 @@ Produkte: Bildgruppen
 
 @media (max-width: 900px) {
     .img-produkte {
-        max-width: 95%;
-        width: 90%;
+        max-width: 100%;
+        width: 95%;
     }
 }
 
@@ -760,6 +785,8 @@ Footer-Komponente
 }
 
 .plakette-footer {
+
+    display: flex;
     background-color: #181717;
     border: 1px solid rgb(71, 70, 70);
     padding: 0.5rem;
