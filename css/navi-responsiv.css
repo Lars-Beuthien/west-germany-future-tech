@@ -80,7 +80,7 @@ text-decoration-thickness: 1px;
   
 }
 
-/* Reaktion beim Antippen / Fokussieren */
+/* Reaktion beim Antippen / Fokussieren 
 .hauptnavigation:hover img,
 .hauptnavigation:focus-visible img,
 .hauptnavigation:active img {
@@ -90,14 +90,19 @@ text-decoration-thickness: 1px;
     contrast(1.08) 
     drop-shadow(0 0 0.2rem rgba(255, 255, 255, 0.25))
     
+    
 }
-
+*/
 
 
 .menubutton img {
     display: block;
     width: 100%;
     height: auto;
+     transform: none;
+    filter: brightness(0.85) contrast(1);
+    transition: transform 120ms ease, filter 120ms ease;
+    
 }
 
 .menubutton {
@@ -112,6 +117,7 @@ text-decoration-thickness: 1px;
     background: transparent;
     cursor: pointer;
     align-self: flex-start;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .menubutton span {
@@ -138,5 +144,18 @@ text-decoration-thickness: 1px;
 .menubutton[aria-expanded="true"] + ul {
     display: flex;
     flex-flow: column;
+}
+
+/* MENÜBUTTON: Menü ist offen */
+.menubutton[aria-expanded="true"] img {
+    transform: translateY(-1px) scale(1.08);
+    filter: brightness(1.4) contrast(1.08)
+        drop-shadow(0 0 0.25rem rgba(255, 255, 255, 0.35));
+}
+
+/* MENÜBUTTON: Menü ist wieder zu */
+.menubutton[aria-expanded="false"] img {
+    transform: none;
+    filter: brightness(0.85) contrast(1);
 }
 
