@@ -574,7 +574,7 @@ Produkte: Beschriftungen
     padding: 0.6rem 0.6rem;
     display: inline-block;
     border-radius: 3px;
-    margin-left: 0.5rem;
+    margin-left: 0;
      max-width: calc(100% - 1rem);
     overflow-wrap: anywhere;
 }
@@ -787,10 +787,19 @@ Footer-Komponente
 .plakette-footer {
 
     display: flex;
+    justify-content: center;
     background-color: #181717;
     border: 1px solid rgb(71, 70, 70);
     padding: 0.5rem;
     border-radius: 3px;
+    
+}
+
+@media (max-width: 900px) {
+    .plakette-footer {
+        max-width: 100%;
+        width: 95%;
+    }
 }
 
 
