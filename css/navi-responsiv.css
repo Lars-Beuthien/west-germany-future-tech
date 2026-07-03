@@ -10,20 +10,33 @@ Navigation:
 - Navigationsbuttons
 ========================================================================================================================*/
 
+
+
 .hauptnavigation {
-    background-color: rgb(203, 203, 226);
-    color: black;
+    background-color: rgb(52, 52, 63);
+    color: white;
     box-shadow: 0 2px 6px rgb(54, 52, 52);
     margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    outline: 3px solid black;
+    margin: 0 3px 0 3px;
 }
-
 
 .hauptnavigation ul {
     display: flex;
     flex-flow: column;
+    gap: 2px;
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+
+
+.hauptnavigation li {
+    
     
 }
 
@@ -31,15 +44,15 @@ Navigation:
     display: flex;
     flex-flow: row;
     align-items: center;
-    gap: 0.5rem;
     text-decoration: underline;
-    font-size: 1rem;
-    background: rgb(52, 52, 63);
-    color: white;
-    padding-left: 0.2rem;
-    padding-bottom: 0.2rem;
-    padding-top: 0.2rem;
-    border: 1px solid rgb(0, 0, 0);
+    font-size: 0.8rem;
+    background-color: rgb(52, 52, 63);
+    color: beige;
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    border: 4px solid rgb(31, 30, 30);
+    outline: 2px solid black;
     -webkit-tap-highlight-color: rgba(189, 135, 8, 0.35);
 }
 .hauptnavigation img {
@@ -68,15 +81,23 @@ text-decoration-thickness: 1px;
 }
 
 /* Reaktion beim Antippen / Fokussieren */
-.hauptnavigation a:hover img,
-.hauptnavigation a:focus-visible img,
-.hauptnavigation a:active img {
+.hauptnavigation:hover img,
+.hauptnavigation:focus-visible img,
+.hauptnavigation:active img {
     transform: translateY(-1px) scale(1.08);
     filter: 
-    brightness(1.2) 
+    brightness(1.5) 
     contrast(1.08) 
-    drop-shadow(0 0 0.1rem rgba(255, 255, 255, 0.25))
+    drop-shadow(0 0 0.2rem rgba(255, 255, 255, 0.25))
     
+}
+
+
+
+.menubutton img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .menubutton {
@@ -84,18 +105,13 @@ text-decoration-thickness: 1px;
     display: inline-block;
 
     width: 50px;
-    padding: 1rem;
+    padding: 0;
     border: 0;
-    margin: 0.3rem;
+    margin: 0.5rem;
 
     background: transparent;
     cursor: pointer;
-}
-
-.menubutton img {
-    display: block;
-    width: 100%;
-    height: auto;
+    align-self: flex-start;
 }
 
 .menubutton span {
@@ -108,67 +124,11 @@ text-decoration-thickness: 1px;
 
     color: beige;
     font-family: "Special Elite", monospace;
-    font-size: 0.43rem;
-    letter-spacing: 0.05em;
-    text-align: center;
-
-    pointer-events: none;
-}
-
-.hauptnavigation {
-    background-color: rgb(52, 52, 63);
-    color: white;
-    box-shadow: 0 2px 6px rgb(54, 52, 52);
-    margin-bottom: 2rem;
-
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-}
-
-.menubutton {
-    position: relative;
-    display: inline-block;
-
-    width: 50px;
-    padding: 0;
-    border: 0;
-    margin: 0.2rem;
-
-    background: transparent;
-    cursor: pointer;
-    align-self: flex-start;
-}
-
-.menubutton img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.menubutton span {
-    position: absolute;
-    inset: 0;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    color: white;
-    font-family: "Special Elite", monospace;
     font-size: 0.45rem;
     line-height: 1;
     text-align: center;
 
     pointer-events: none;
-}
-
-.hauptnavigation ul {
-    display: flex;
-    flex-flow: column;
-    list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
 .menubutton[aria-expanded="false"] + ul {
