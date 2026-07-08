@@ -7,7 +7,29 @@ Autor: Lars Beuthien
 
 Wiederverwendbare Bauteile:
 - Startseitenmodule
-- Infoboxen
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 - Galerien
 - Mitarbeiterdarstellung
 - Produktdarstellung
@@ -139,7 +161,7 @@ Startseite: Infoboxen
 
 @media (max-width: 900px) {
     .infoboxen {
-        padding: 1rem 1rem 4rem 1rem;
+        padding: 1rem 0 4rem 0;
         margin: 5rem auto;
         background-color: #291b0e34;
         border: none;
