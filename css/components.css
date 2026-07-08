@@ -207,7 +207,7 @@ Startseite: Infoboxen
 
 @media (max-width: 900px) {
     .infobox {
-    border: 1px solid black;
+    border: 2px solid #555247;
     padding: 0.25rem;    
     }
     
