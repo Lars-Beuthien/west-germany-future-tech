@@ -143,13 +143,14 @@ Startseite: Infoboxen
         margin: 5rem auto;
         background-color: #291b0e34;
         border: none;
-        background:
+        background: transparent; 
+        /*
         repeating-linear-gradient(
             90deg,
             #11070280 0 4px,
             #5536287e 4px 6px,
             #301c067c 6px 12px
-        );
+        ); */
         
 
     }
@@ -532,7 +533,7 @@ Produkte: Bildgruppen
 
 @media (max-width: 900px) {
     .produktbilder {
-        padding: 0.5rem;
+        padding: 0;
     }
 }
 
@@ -565,7 +566,8 @@ Produkte: Bildgruppen
 
 @media (max-width: 900px)  {
         .img-startseite {
-            max-width: calc(100% - 4px);
+            max-width: calc(100% - 2px);
+            
 
         }
     
